@@ -1,0 +1,47 @@
+body{ 
+    background : linear-gradient(to right,#503143,#253C62 );
+ font-family: 'Muli', sans-serif;
+}
+ 
+.form{
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 635px;
+    margin-left: 583px;
+}
+    
+.text-styling{
+    color: white;
+    font-size: 17px;
+    font-weight: 300;
+    margin-bottom: 9px;
+    margin-top: 22px;
+}
+
+.name,  .last-name , .password , .address , .comments , .send , .reset {
+    display: flex;
+    flex-direction: column;
+    width: 226px;
+    justify-content: space-around;
+    
+}
+ input , textarea {
+    background: #27283A;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    height: 33px;
+    width: 300px;
+    color: white;
+}
+.comments input  {height: 72px;}
+
+.send input, .reset input {
+    color: white;
+   text-align : center;
+cursor:pointer;
+}
+
